@@ -3,10 +3,10 @@
 This document is meant to be a guide to getting a review process started, and not as something to be rigidly followed. You have the flexibility to determine how each review should go.
 
 - The goals of code review:
-Improve code quality, correctness, understanding, security, performance, scalability, and maintainability
-Remove as many bugs as possible at an early stage
-Spread the knowledge of the project
-Learn from each other
+  - Improve code quality, correctness, understanding, security, performance, scalability, and maintainability
+  - Remove as many bugs as possible at an early stage
+  - Spread the knowledge of the project
+  - Learn from each other
 - Make sure any unit tests for the code run with no failures. That includes no breaking changes and no regressions.
 - Every engineer needs to have their code reviewed by at least one other engineer, preferably two.
 - Have an automated system for code linting, formatting, and syntax-checking in place so reviewers need not review these things; Let the automatic tools do them.
